@@ -7,7 +7,7 @@
 + 廖雪峰Javascript/Jquery/Angular/ionic
 + git/github[]
 + Bootstrap
-+ Python设计模式（了解）
++ Python设计模式（了解）[https://github.com/faif/python-patterns]
 + Linux shell（grep、sed、awk、curl、wget、crontab）、Linux目录结构
 + SQLite、MySQL、MongoDB/ORM
 + redis、celery
