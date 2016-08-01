@@ -6,13 +6,14 @@
 ### 知识准备
 
 + 廖雪峰Python教程（多线程/进程/装饰器）
-+ !(Python面试题/算法)[https://github.com/taizilongxu/interview_python]
++ [Python面试题/算法](https://github.com/taizilongxu/interview_python)
++ Linux shell（grep、sed、awk、curl、wget、crontab）、Linux目录结构
 + 廖雪峰Javascript/Jquery/Angular/ionic
 + git/github[]
 + Bootstrap
 + Python设计模式（了解）[https://github.com/faif/python-patterns]
 + 正则表达式
-+ Linux shell（grep、sed、awk、curl、wget、crontab）、Linux目录结构
+
 + SQLite、MySQL、MongoDB/ORM
 + redis、celery
 + Flask官方文档/Fullstack Python
