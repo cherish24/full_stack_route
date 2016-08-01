@@ -6,7 +6,7 @@
 ### 知识准备
 
 + 廖雪峰Python教程（多线程/进程/装饰器）
-+ !(Python面试题/算法)[https://github.com/taizilongxu/interview_python]
++ (Python面试题/算法)[https://github.com/taizilongxu/interview_python]
 + 廖雪峰Javascript/Jquery/Angular/ionic
 + git/github[]
 + Bootstrap
