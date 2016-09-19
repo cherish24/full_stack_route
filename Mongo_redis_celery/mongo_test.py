@@ -71,9 +71,20 @@ def rake():
     print user_count
 
     #以某个字段对查询结果进行排序
-    user_doc = db.users.find({"username":"Amber"}).sort(("datebirth",pymongo.DESCENDING)).limit(10)
-    for user in user_doc :
-        print user
+    #DESCENDING\ASCENDING
+    # user_doc = db.users.find({"username":"Amber"}).sort(("datebirth",pymongo.DESCENDING)).limit(10).skip(10)
+    # for user,_ in user_doc :
+        # print user
+    # for i in db.users.find(snapshot=True):
+        # print user
+
+    import copy
+    old_user_doc = db.users.find_one({"username":"Amber"})
+    new_user_doc = copy.deepcopy(old_user_doc)
+    new_user_doc["email"] = "bbbb@aaaa.com"
+    db.users.update({"username":"Amber"},new_user_doc,)
+
+
 if __name__ == "__main__":
     rake()
 
